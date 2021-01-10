@@ -7,7 +7,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$databaseName = "gym";
+$databaseName = "karate";
 
 // connect to mysql database
 
@@ -43,7 +43,7 @@ body{
     width: 40rem;
     /* margin: 0 auto; */
     border-radius:0;
-    background:url("../images/logo.png");
+    background:url("../images/karate.jpeg");
     background-size:15rem; 
     background-repeat: no-repeat;
     background-position: center;

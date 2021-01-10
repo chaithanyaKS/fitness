@@ -4,7 +4,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$databaseName = "gym";
+$databaseName = "karate";
 $connect = mysqli_connect($hostname, $username, $password, $databaseName);
 $query1 = "SELECT * FROM `package`";
 $result2 = mysqli_query($connect, $query1);
@@ -27,7 +27,7 @@ $result2 = mysqli_query($connect, $query1);
         .logo-img {
         width: 40rem;
         border-radius:0;
-        background:url("../images/logo.png");
+        background:url("../images/karate.jpeg");
         background-size:15rem; 
         background-repeat: no-repeat;
         background-position: center;

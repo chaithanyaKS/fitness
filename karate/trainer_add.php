@@ -23,7 +23,7 @@
 		.logo-img {
 		width: 40rem;
 		border-radius:0;
-		background:url("../images/logo.png");
+		background:url("../images/karate.jpeg");
 		background-size:10rem; 
 		background-repeat: no-repeat;
 		background-position: center;

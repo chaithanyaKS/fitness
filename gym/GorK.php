@@ -36,16 +36,16 @@
 <body>
     <div class="wrapper">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top img" src="./images/logo.png" alt="Card image cap">
+            <img class="card-img-top img" src="../images/logo.png" alt="Card image cap">
             <div class="card-body">
-                <a href="http://localhost/gym/admin-panel.php" class="btn btn-primary">GYM</a>
+                <a href="http://localhost/fitness/gym/admin-panel.php" class="btn btn-primary">GYM</a>
             </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top img" src="./images/karate.jpeg" alt="Card image cap">
+            <img class="card-img-top img" src="../images/karate.jpeg" alt="Card image cap">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">KARATE</a>
+                <a href="http://localhost/fitness/karate/admin-panel.php" class="btn btn-primary">KARATE</a>
             </div>
         </div>
     </div>
