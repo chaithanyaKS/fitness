@@ -64,7 +64,7 @@
 		<div class="col-md-6">
 			<div class="container">
 				<div class="heading">
-					<h1 class="text-center">Friends Gym</h1>
+					<h1 class="text-center">Friends Fitness Center</h1>
 					<h3 >" DEDICATION DETERMINATION AND DISCIPLINE "</h3>
 				</div>
 			</div>

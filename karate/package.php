@@ -45,12 +45,12 @@
 </div>
 </div>	
     <div class="container">
-        <div class="card">
-            <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+        <div class="card bg-info">
+            <div class="card-body bg-info" style="background-color:#3498DB;color:#ffffff;">
             <div class="row">
             <div class="col-md-12 p_details "><h3>Package Details</h3></div>
             </div>
-                <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+                <div class="card-body bg-info" style="background-color:#3498DB;color:#ffffff;">
                     <table class="table table-hover" style="margin-bottom:5rem;">
                         <thead>
                             <tr>

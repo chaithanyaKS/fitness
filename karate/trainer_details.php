@@ -57,7 +57,7 @@ $result2 = mysqli_query($connect, $query1);
 
     <div class="container">
         <div class="card">
-            <div class="card-body search-bar" style="background-color:#3498DB;color:#ffffff;">
+            <div class="card-body search-bar bg-info" style="background-color:#3498DB;color:#ffffff;">
                 <div class="row align-middle">
                     <div class="col-md-6 text-center"><h3>Customer Details</h3></div>
                     <div class="col-md-6">
@@ -81,7 +81,7 @@ $result2 = mysqli_query($connect, $query1);
                     </div>
                 </div>
             </div>
-            <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+            <div class="card-body bg-info" style="background-color:#3498DB;color:#ffffff;">
                 <div class="card-body">
                     <table class="table table-hover" style="margin-bottom:5rem;">
                         <thead>

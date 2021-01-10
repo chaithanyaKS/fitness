@@ -61,11 +61,11 @@
 
 <div class="container">
     <div class="card">
-    <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
-        <div class="row">
+    <div class="card-body bg-info" style="background-color:#3498DB;color:#ffffff;">
+        <div class="row bg-info">
         <div class="col-md-1"></div>
         <div class="col-md-3 text-center p_details"><h3>Payment Details</h3></div>
-            <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+            <div class="card-body bg-info" style="background-color:#3498DB;color:#ffffff;">
                 <div class="card-body">
                     <table class="table table-hover">
                         <thead>
@@ -84,7 +84,7 @@
                         </tbody>
                     </table>
 
-                <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
+                <div class="card-body bg-info" style="background-color:#3498DB;color:FFFFFF;">
                 <h3>Make new Payment</h3>
                 </div> 
                     <form class="form-group" action="func.php" method="post">
@@ -132,8 +132,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
-            const package_arr = ['Preliminary','Weight Gain', 'Weight Loss']
-            const package_cost = [800, 1500, 1000]
+            const package_arr = ['Kihon','Kata', 'Kumite']
+            const package_cost = [800, 1000, 2000]
 
             $('input').attr('autocomplete', 'off');
             $('#cid').on('change', function () {

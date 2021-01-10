@@ -65,7 +65,7 @@ body{
     <div class="row">
         <div class="col-md-3">
         <div class="list-group">
-            <h4 class="list-group-item active">Customers</h4>
+            <h4 class="list-group-item active bg-info">Customers</h4>
             <a href="trainer_details.php" class="list-group-item">Customer details</a>
             <a href="package.php" class="list-group-item">Package details</a>
             <a href="payment.php" class="list-group-item">Payments</a>
@@ -73,7 +73,7 @@ body{
         <hr>
 
         <div class="list-group">
-            <h3 class="list-group-item active">Trainers </h3>
+            <h3 class="list-group-item active bg-info">Trainers </h3>
             <a href="trainer.php" class="list-group-item">Trainer details</a>             
             <a href="trainer_add.php" class="list-group-item">Add new Trainer</a>
         </div>      
@@ -82,7 +82,7 @@ body{
         <div class="col-md-8">
             <div class="card" style=" border: none; ">
 
-                <div class="card-body bg-primary text-white" style="margin-bottom:2rem;">
+                <div class="card-body bg-primary text-white bg-info" style="margin-bottom:2rem;">
                     <h4>Register new members</h4>
                 </div> 
                 <form class="form-group" action="func.php" method="post">
@@ -130,17 +130,7 @@ body{
     <nav>
         <div class="main-wrapper">
             <div class="nav-login">
-                <?php
-                    if (isset($_SESSION['u_id'])) {
-                            echo '    <form action="includes/index.php" method="POST">
-                                            <button type="submit" name="submit">logout</button>
-                                        </form>';	
-                    } else {
-                    
-                            echo '    <form action="includes/index.php" method="POST"></form>
-                                        <a href="index.php" class="btn btn-danger" style="margin-bottom: 2rem; margin-left: 1rem;">Logout</a>';
-                    }
-                ?>
+                <button type="submit" id='logout' class="btn btn-danger" style="margin-bottom: 2rem; margin-left: 1rem;" name="submit">logout</button>
             </div>
         </div>
     </nav>
@@ -154,6 +144,7 @@ body{
         let value = $(this).val()
         $(this).val(`${value}@gmail.com`)
     })
+    $('#logout').on('click', () => window.location.href = 'http://localhost/fitness/gym/index.php')
     </script>
     
 </body>
