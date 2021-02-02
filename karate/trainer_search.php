@@ -43,8 +43,10 @@
     {
     $fname=$_POST['search'];
     $package_id = $_POST['Package_id'];
-    $query="CALL `search`('$fname', '$package_id')";
+    // $query="CALL `search`('$fname', '$package_id')";
     // $query="select * from customer_details where fname like '$contact%'";
+    // $query="select * from customer_details, package where customer_details.package_id = package.Package_id AND fname like '$fname%'";
+    $query = "select * from customer_details as c, package as p where  c.package_id=p.Package_id AND fname like '$fname%' AND c.package_id LIKE $package_id ;";
     $result=mysqli_query($con,$query);
     echo "
         <div class=\"img-container\">

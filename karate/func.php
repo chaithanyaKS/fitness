@@ -12,7 +12,7 @@ if(isset($_POST['pat_submit'])) {
     $result=mysqli_query($con,$query);
      echo "$result";
      if($result) {
-      echo "<script>alert('Member '$fname' added.')</script>";
+      echo "<script>alert('Member $fname added.')</script>";
       echo "<script>window.open('admin-panel.php','_self')</script>";
     }
     else {
@@ -30,7 +30,7 @@ if(isset($_POST['tra_submit'])) {
     $result=mysqli_query($con,$query);
     if($result) {
         echo "<script>window.open('trainer.php','_self')</script>";
-        echo "<script>alert('New Trainer '$Name' added.')</script>";
+        echo "<script>alert('New Trainer $Name added.')</script>";
     }
     else {
         echo "<script>window.open('trainer_add.php','_self')</script>";
